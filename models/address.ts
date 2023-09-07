@@ -10,7 +10,7 @@ import {
   Model,
   DataTypes,
   Sequelize
-} from 'sequelize'
+} from '@sequelize/sequelize'
 /* jslint node: true */
 class Address extends Model<
 InferAttributes<Address>,
